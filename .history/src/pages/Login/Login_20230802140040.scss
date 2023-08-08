@@ -1,0 +1,24 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+    --subtitle-font-name: 'Island Moments', cursive;
+}
+.bg-login {
+    background-color: var(--color-chudao);
+    position: relative;
+}
+.avatar_login {
+    position: relative;
+    top: -40px;
+}
+.title_login {
+    position: relative;
+    top: -30px;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 0;
+}
+.form{
+    position: relative;
+    left: 0;
+}

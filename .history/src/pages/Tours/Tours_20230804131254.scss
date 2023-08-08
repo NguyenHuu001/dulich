@@ -1,0 +1,114 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+    --subtitle-font-name: 'Island Moments', cursive;
+}
+.wrap_background {
+    height: 400px;
+}
+.background {
+    position: relative;
+    background-image: url('../../assets/images/background.png');
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.45);
+    }
+
+    .content_background {
+        position: absolute;
+        color: #fff;
+        z-index: 10;
+        font-size: 50px;
+    }
+}
+.Search_where {
+    position: relative;
+}
+.icon_card {
+    color: var(--color-chudao);
+}
+.btn_book {
+    padding: 10px;
+    border-radius: 10px 0px;
+    color: black;
+    border: 1px solid var(--color-chudao);
+    background-color: var(--color-chudao);
+
+    &:hover {
+        transition: all 0.3s linear;
+        transform: scale(1.1);
+        border: 1px solid var(--color-chudao);
+        background-color: var(--color-chudao);
+    }
+}
+
+.wrap_img {
+    position: relative;
+}
+.featured {
+    position: absolute;
+    right: 0;
+    color: var(--color-text);
+    background-color: #ff7e01;
+    padding: 10px;
+    bottom: 0px;
+}
+.None_Item {
+    display: none;
+}
+
+// ----------------
+.book_fixed{
+    position: sticky;
+    top: 0;
+}
+.wrap_chitiettour > img {
+    border-radius: 10px;
+}
+
+.wrap_info{
+    border: 1px solid var(--color-chudao);
+    border-radius: 10px;
+}
+.icon_rating_hv:hover{
+    cursor: pointer;
+}
+.input_review{
+    border: 1px solid var(--color-chudao);
+    border-radius: 30px;
+}
+.wrap_input_review{
+    position: relative;
+    .btn_submit{
+        position: absolute;
+        background-color: var(--color-chudao);
+        color: #fff;
+        border-radius: 30px;
+        right: 5px;
+    }
+}
+.wrap_rating_content{
+    width: 100%;
+}
+.ntn_bookNow{
+    color: var(--color-text);
+    background-color: var(--color-chudao);
+    padding: 10px;
+    border-radius: 30px;
+    &:hover{
+        transform: scale(1.1);
+        transition: all 0.4s linear;
+    }
+}

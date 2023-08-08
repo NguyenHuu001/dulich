@@ -1,0 +1,6 @@
+const publicRoutes = [
+
+]
+const privateRoutes = [
+    
+]

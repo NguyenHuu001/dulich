@@ -1,0 +1,13 @@
+import './Tours.scss';
+function Tours() {
+    return (
+        <div className='container-fluid wrap_background col-md-12 p-0'>
+            <div className='background d-flex justify-content-center align-items-center'>
+                <h3 className='content_background'>All Tour</h3>
+            </div>
+            <div className='container'></div>
+        </div>
+    );
+}
+
+export default Tours;

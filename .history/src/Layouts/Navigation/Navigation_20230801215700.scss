@@ -1,0 +1,34 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+}
+.navi {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background-color: rgba(153,153,153,0.5);
+}
+.navigation{
+    position: fixed;
+    background-color: #fff;
+    width: 300px;
+    height: 100%;
+    right: 0;
+}
+.content_nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.close{
+    position: absolute;
+}
+.content_nav > h2:hover{
+    cursor: pointer;
+    color: var(--color-chudao);
+    transition: all 0.3s linear;
+}

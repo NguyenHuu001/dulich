@@ -1,0 +1,19 @@
+:root{
+  --color-chudao: #faa935;
+  --color-text: #fff;
+}
+
+.set_fw{
+  font-weight: 500;
+}
+.header_register{
+  background-color: var(--color-chudao);
+  border-radius: 50px !important;
+  color: var(--color-text);
+}
+.header_register,
+.header_login{
+  padding: 10px 20px;
+  font-size: 20px;
+  
+}

@@ -1,0 +1,2 @@
+const fetchTours = () => {};
+export { fetchTours };

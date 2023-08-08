@@ -1,0 +1,29 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+    --subtitle-font-name: 'Island Moments', cursive;
+}
+.bg-login {
+    background-color: var(--color-chudao);
+    position: relative;
+}
+.avatar_login {
+    position: relative;
+    top: -40px;
+}
+.title_login {
+    position: relative;
+    top: -30px;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 0;
+}
+.cdk {
+    color: var(--color-text);
+}
+.ant-message-error {
+    position: relative;
+    z-index: 9999;
+    left: 0;
+    /* Thêm các thuộc tính CSS khác mà bạn muốn thay đổi cho thông báo lỗi ở đây */
+}

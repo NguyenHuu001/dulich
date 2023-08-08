@@ -1,0 +1,19 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+    --subtitle-font-name: "Island Moments",cursive;
+}
+.top_content{
+    height: 40px;
+}
+.title_top_content{
+    background-color: var(--color-chudao);
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 0 20px;
+    font-family: var(--subtitle-font-name);
+}
+.img_earth{
+    width: 36px;
+    height: 36px;
+}

@@ -1,0 +1,15 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+}
+
+.title_top_content{
+    background-color: var(--color-chudao);
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: var(--color-text);
+}
+.img_earth{
+    width: 36px;
+    height: 36px;
+}

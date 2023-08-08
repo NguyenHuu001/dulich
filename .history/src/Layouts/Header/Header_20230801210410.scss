@@ -1,0 +1,42 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+}
+.header {
+    position: sticky;
+    z-index: 9999;
+    top:0;
+    height: 100px;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    background-color: var(--color-text);
+}
+.header_in{
+  height: 100%;
+}
+.wrap_header{
+  height: 100%;
+}
+.logo {
+    height: 100%;
+}
+.set_fw {
+    font-weight: 500;
+}
+.register_li {
+    background-color: var(--color-chudao);
+    border-radius: 20px !important;
+    color: var(--color-text);
+    padding: 10px 30px;
+    font-size: au;
+}
+.icon_menu {
+    display: none;
+}
+@media screen and (max-width: 980px) {
+    .icon_menu {
+        display: block;
+    }
+    .item_none {
+        display: none;
+    }
+}

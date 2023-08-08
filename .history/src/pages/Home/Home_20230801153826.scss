@@ -1,0 +1,91 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+    --subtitle-font-name: "Island Moments",cursive;
+}
+
+.title_top_content{
+    background-color: var(--color-chudao);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: var(--subtitle-font-name);
+}
+.img_earth{
+    width: 36px;
+    height: 36px;
+}
+.title_higtlight{
+    color: var(--color-chudao);
+}
+
+.img1{
+    height: 350px;
+    img{
+        box-sizing: border-box;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        border: 1px solid var(--color-chudao);
+    }
+}
+.video1{
+    height: 350px;
+    margin-top: 30px;
+    video{
+        box-sizing: border-box;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        border: 1px solid var(--color-chudao);
+    }
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    color: #ee6e6e;
+}
+.chieudai{
+    width: 220px;
+}
+.border_right{
+    border-right: 1px solid grey;
+}
+.input_where{
+    outline: none;
+    border: none;
+}
+.icon_search{
+    background-color: var(--color-chudao);
+    color: var(--color-text);
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 5px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.border_items{
+    border-radius: 0 0 10px 0;
+    border-bottom: 1px solid var(--color-chudao);
+    border-right: 1px solid var(--color-chudao);
+}
+.icon_center{
+    width: 40px;
+    height: 40px;
+    color: var(--color-text);
+}
+.wrap_icon{
+    width: 60px;
+    border-radius: 50%;
+    background-color: var(--color-chudao);
+    height: auto;
+    border: 1px solid var(--color-chudao);
+}
+
+.experience{
+    text-align: c;
+    width: 70px;
+    height: 70px;
+    background-color: var(--color-chudao);
+}

@@ -1,0 +1,44 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+    --subtitle-font-name: "Island Moments",cursive;
+}
+
+.title_top_content{
+    background-color: var(--color-chudao);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: var(--subtitle-font-name);
+}
+.img_earth{
+    width: 36px;
+    height: 36px;
+}
+.title_higtlight{
+    color: var(--color-chudao);
+}
+.Content{
+    
+}
+
+.img1{
+    height: 350px;
+    img{
+        box-sizing: border-box;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        border: 1px solid var(--color-chudao);
+    }
+}
+.video1{
+    height: 350px;
+    margin-top: 30px;
+    video{
+        box-sizing: border-box;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        border: 1px solid var(--color-chudao);
+    }
+}

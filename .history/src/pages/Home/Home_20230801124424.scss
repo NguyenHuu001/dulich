@@ -1,0 +1,11 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+}
+.title_top_content{
+    background: var(--color-chudao);
+}  
+.top_content > img{
+    width: 36px;
+    height: 36px;
+}

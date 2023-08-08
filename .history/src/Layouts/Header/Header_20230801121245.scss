@@ -1,0 +1,29 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+}
+.header {
+    position: sticky;
+    height: 80px;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    background-color: var(--color-text);
+}
+.set_fw {
+    font-weight: 500;
+}
+.header_register {
+    background-color: var(--color-chudao);
+    border-radius: 50px !important;
+}
+.icon_menu {
+    display: none;
+}
+@media screen and (max-width: 980px) {
+    .icon_menu {
+        display: block;
+    }
+    .item_none {
+        display: none;
+    }
+    
+}
