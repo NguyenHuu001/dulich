@@ -1,0 +1,11 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+    --subtitle-font-name: 'Island Moments', cursive;
+}
+.btn_them > span{
+   color: var(--color-text);
+}
+.btn_them {
+    padding: 20px;
+}

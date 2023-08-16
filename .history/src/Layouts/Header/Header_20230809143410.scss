@@ -1,0 +1,70 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+}
+.link_page{
+    text-decoration: none;
+    color: black;
+}
+.link_page:active,
+.link_page:focus,
+.link_page:hover {
+  color: var(--color-chudao);
+}
+.header {
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    height: 100px;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    background-color: var(--color-text);
+}
+.header_in {
+    height: 100%;
+}
+.wrap_header {
+    height: 100%;
+}
+.logo {
+    height: 100%;
+}
+.set_fw {
+    font-weight: 500;
+}
+.btn_register {
+    background-color: var(--color-chudao);
+    padding: 10px 0;
+    border-radius: 20px;
+}
+.icon_menu {
+    display: none;
+}
+.cart_tour{
+    color: var(--color-chudao);
+}
+.wrap_cart{
+    position: relative;
+    .total_tour{
+        position: absolute;
+        top: 20px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .icon_menu {
+        display: block;
+    }
+    .item_none {
+        display: none;
+    }
+}
+@media screen and (max-width: 300px) {
+    .register_login {
+        display: none;
+    }
+}
+@media screen and (max-width: 440px) {
+    .btn_register {
+        margin-top: 10px;
+    }
+}
+

@@ -1,0 +1,14 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+}
+.btn-delete{
+    padding: 10px 40px;
+    border-radius: 30px;
+    background-color: var(--color-chudao) ;
+    color: var(--color-text);
+
+    &:hover{
+        transform: scale()(1.1);
+    }
+}

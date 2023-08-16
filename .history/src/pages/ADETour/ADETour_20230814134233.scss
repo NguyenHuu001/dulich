@@ -1,0 +1,24 @@
+:root {
+    --color-chudao: #faa935;
+    --color-text: #fff;
+    --subtitle-font-name: 'Island Moments', cursive;
+}
+.wrap_addTour {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    z-index: 999999;
+    margin-top: ;
+}
+.from-bg{
+    background-color: #fff;
+}
+.btn_them > span {
+    color: var(--color-text);
+}
+.btn_them {
+    border: var(--color-chudao);
+    background-color: var(--color-chudao);
+    padding: 20px;
+}
